@@ -1,0 +1,115 @@
+.painelPrincipal {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7a7a7;
+
+}
+
+
+.painel {
+    width: 1200px;
+    height: 150px;
+    margin: 10px;
+    background-color: rgb(12, 56, 12);
+    color: white;
+    border: solid 5px rgb(85, 43, 3);
+}
+
+.painelItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.professor {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-weight: 700;
+}
+
+.turma {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.painelItem p {
+    margin-left: 10px;
+}
+
+.new-painel {
+    background-color: #5deb88;
+    padding: 1rem;
+    margin: 2rem auto;
+    /* width: 50rem; */
+    /* max-width: 95%; */
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-painel button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 1px solid #1d7a00;
+    background-color: #086618;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.new-painel button:hover,
+.new-painel button:active {
+    background-color: #0b8f21;
+    border-color: #510674;
+}
+
+.new-painel button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.new-painel button.alternative:hover,
+.new-painel button.alternative:active {
+    background-color: #ddb3f8;
+}
+
+.new-painel-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: left;
+}
+
+.new-painel-control {
+    display: flex;
+    gap: 1rem;
+}
+
+.new-painel_control label {
+    font-weight: bold;
+    display: block;
+}
+
+.new-painel_control input {
+    font: inherit;
+
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.new-painel-actions {
+    text-align: right;
+}
