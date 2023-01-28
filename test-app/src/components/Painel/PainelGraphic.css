@@ -1,0 +1,24 @@
+.painel-graphic {
+    color: black;
+    padding: 0 1rem;
+    width: 95%;
+}
+
+.painel-graphic-control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.painel-graphic label {
+    font-weight: bold;
+}
+
+.painel-graphic select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+}

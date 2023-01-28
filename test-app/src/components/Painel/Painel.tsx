@@ -8,12 +8,12 @@ function Painel(props) {
 
     const mudarClassName = () => {
         setNomeClasse("Novo nome Classe");
-        console.log(nomeClasse);    
     }
 
     const data = {
         nomeProfessor: props.nomeProfessor,
         idade: props.idade,
+        nomeClasse: props.nomeClasse,
         qtdAlunos: props.qtdAlunos
     }
 

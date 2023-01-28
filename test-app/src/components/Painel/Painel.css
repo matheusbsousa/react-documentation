@@ -49,11 +49,14 @@
     background-color: #5deb88;
     padding: 1rem;
     margin: 2rem auto;
-    /* width: 50rem; */
-    /* max-width: 95%; */
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-painel form{
+/*    background-color: red;*/
+    display: flex;
 }
 
 .new-painel button {
@@ -89,6 +92,9 @@
     flex-wrap: wrap;
     gap: 1rem;
     text-align: left;
+    width: 80%;
+    height: 2rem;
+    align-items: center;
 }
 
 .new-painel-control {
@@ -103,7 +109,7 @@
 
 .new-painel_control input {
     font: inherit;
-
+    height: 1.5rem;
     border-radius: 6px;
     border: 1px solid #ccc;
     width: 20rem;
@@ -112,4 +118,6 @@
 
 .new-painel-actions {
     text-align: right;
+    width: 20%;
+
 }

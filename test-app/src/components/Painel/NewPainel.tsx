@@ -1,13 +1,15 @@
 import PainelForm from './PainelForm';
 import './Painel.css'
 
+const NewPainel = (props) => {
 
-// import { Container } from './styles';
+    const onNewPainelCreated = (data: any) => {
+        props.onNewPainelCreated(data);
+    }
 
-const NewPainel = () => {
   return (
     <div className='new-painel'>
-      <PainelForm></PainelForm>
+        <PainelForm onNewPainelCreated={onNewPainelCreated}></PainelForm>
     </div>
   )
 }
